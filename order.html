@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="order.css">
+    
+</head>
+<body>
+    
+
+    <div class="order">
+        <div class="order-box">
+            <div class="order-boxes">
+                <div class="order-box1">
+                    <img src="./img/ribbon.png" alt="">
+                    
+                </div>
+                <div class="orderbox2">
+                    <h1> SC⁠⚆⁠⚆P<img src="./ice.png" alt=""></h1>
+                    <p>welcome to scoop</p>
+
+                    <div class="container">
+                        <form >
+                          <input type="name" placeholder="Name" required><br>
+                          <input type="Address" placeholder="Address" required><br>
+                          <input type="email" placeholder="Email" required><br>
+                          <input type="number" id="quantity" min="1" placeholder="Amount of your order" required><br>
+                          <select id="payment methods" >
+                              <option value="Payment Methods">Payment Methods</option>
+                              <option value="credit card">credit card</option>
+                              <option value="online pay">Online pay</option>
+                              <option value="cash in hand">Cash in hand</option>
+                            </select><br>
+                            <input type="button" id="button" onclick="popup()" value="Place Order"><br>
+                        </form>
+                      </div>
+                      
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="order.js"></script>
+</body>
+</html>

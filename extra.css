@@ -72,10 +72,13 @@
   animation: movi 7s linear infinite;
   
   }
+  .ci2 img{
+    height: 50px;
+    position: relative;
+    top: 100px;
+  }
   img{
-    height:240px;
-    border-radius: 50%;
-    filter: brightness(1.5) contrast(1.5);
+  
     
   }
   .ga{

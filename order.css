@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap');
+
+
+
+.order{
+    height: 97vh;
+    background-color: #ccd5d2;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+}
+
+.order-box{
+    height: 75vh;
+    width: 60vw;
+    position: relative;
+    top: 90px;
+    left: 230px;
+    background-color: #c0aa9d;
+    border-radius: 20px;
+    box-shadow:
+    30.8px 32.7px 11.2px rgba(0, 0, 0, 0.075),
+    39.2px 41.6px 18.2px rgba(0, 0, 0, 0.085),
+    46.2px 49.1px 23.9px rgba(0, 0, 0, 0.083),
+    58.2px 61.8px 32.6px rgba(0, 0, 0, 0.078),
+    98px 104px 80px rgba(0, 0, 0, 0.09)
+  ;
+}
+.order-boxes{
+    display: flex;
+}
+.order-box1{
+    height: 75vh;
+    width: 35vw;
+    background-color: #396983;
+}
+.order-box1 img{
+    height: 75vh;
+    width: 35vw;
+    object-fit: cover;
+    filter: drop-shadow(10px 10px 10px #3d3b3b);
+}
+.orderbox2 h1{
+    margin-left: 100px;
+    margin-top: 30px;
+    font-family: cursive;
+}
+.orderbox2 img{
+    height: 40px;
+}
+  input, select {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 2em;
+      border: none;
+    outline: none;
+      background-color: transparent;
+      border-bottom: 1px solid rgb(0, 0, 0);
+      margin-left: 40px;
+      font-family: Montserrat, sans-serif;
+      font-weight: 500;
+      transition: all 0.2s ease-in-out; 
+        
+  }
+  input::placeholder{
+    color: black;
+  }
+
+   #button{
+    width: 150px;
+    padding: 10px;
+    background-color: #396983;
+    border: 1px solid black;
+  }
+
+  .orderbox2 p {
+    font-family: gabriola ;
+    font-size: 25px;
+    text-align: center;
+  }
+
+
