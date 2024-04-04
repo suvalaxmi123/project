@@ -10,10 +10,11 @@
     place-items: center;
     min-height:100vh;
     aspect-ratio: 16 / 9;
-    background:linear-gradient(#313030, #e0dcdc);
+    background:linear-gradient(to right,#fa90d1,#a5d4e6e3);
   overflow-y: hidden;
   
   }
+  
   .ci0{
     position: relative;
     width: 375px;
