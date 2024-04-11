@@ -6,6 +6,7 @@ text-transform: capitalize;
 }
 html, body{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 body{
         background: 	#000000;
@@ -426,7 +427,7 @@ filter: drop-shadow(10px 10px 10px #444343);
 
     /* menu */
     .menu h1{
-      font-size:75px ;
+      font-size:77px ;
       font-family: gabriola ;
       color: rgb(53, 45, 88);
       text-align: center;
@@ -639,3 +640,136 @@ a img{
   width: 30px;
   border-radius: 50%;
 } */
+
+
+
+.line{
+  font-size: 1.2rem;
+  line-height: 32px;
+  letter-spacing: 3px;
+  font-weight: 15px;
+  color:brown;
+  font-family: gabriola;
+}
+em{
+  font-size: 1.3rem;
+  line-break: 20px;
+  letter-spacing: 4px;
+  color:yellow;
+  margin-left: 80px;
+  font-style: oblique;
+  
+}
+#para{
+  font-family: cursive;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+}
+.li{
+  margin-left: 100px;
+  font-family: gabriola;
+  font-size: 1.4rem;
+  color:orangered;
+  letter-spacing: 3px;
+ 
+
+}
+.li #imagee{
+ 
+  height:45px;
+  width: 40px;
+}
+.content h3{
+position: relative;
+bottom:40px;
+}
+/* this is for the ingredients */
+.ok{     
+  position: relative;
+bottom:50px;
+}
+.ok li{
+  margin-left: 3vh;
+}
+.price{
+  position: relative;
+  
+  left:28.5vh;
+  top: 13vh;
+  
+  color:whitesmoke;
+}
+/* .button .order{
+  position: relative;
+  bottom:30vh;
+} */
+
+/* this is for search bar */
+.btn , .clo{
+  width:50;
+  height:50px;
+  font-size: 35px;
+  background-color: transparent;
+  color: whitesmoke;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  transition: all 0.20s ease ;
+  
+  }
+  .btn {
+     margin-left: 15px;
+  }
+  .clo{
+      color:rebeccapurple;
+      z-index: -1;
+      margin-left: 5px;
+      
+  }
+  .search{
+      
+      width: 50px;
+      height: 50px;
+      padding:30px;
+    
+      border-radius: 30px;
+      background-color:black;
+      color:whitesmoke;
+      font-size: 20px;
+      outline:none;
+      border:none;
+      transition: width 0.20s ease ;
+      
+      
+      
+  }
+  
+  .searchbox{
+      display:flex;
+      align-items: center;
+      position: relative;
+      left:56%;
+      top:19vh;
+  
+     }
+ 
+  
+  .active .search{
+      width:500px;
+      display: block;
+  }
+ 
+  .active .btn{
+      transform: translate(430px,0.45px) scale(1);
+     color: lavenderblush;
+     background-color: transparent;
+     margin-right: 10px;
+  
+  }
+  .active .btn:hover{
+    color:#84dccf;
+  }
+  .active .clo{
+      z-index: 0;
+      transform: translate(500px,-2px)scale(1.2);
+  }
