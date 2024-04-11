@@ -74,23 +74,12 @@
   
   }
   .ci2 img{
-<<<<<<< HEAD:extra.css
-    /* height: 50px;
-    position: relative;
-    top: 100px; */
     height: 160px;
     width: 160px;
     position: relative;
     top: 30px;
     left: 40px;
     right: 30px;
-=======
-    height: 245px;
-   
-   
-    border-radius: 50%;
-   
->>>>>>> 4c12ae035ed42eb619468e7d838fbc262aed98cc:cover.css
   }
   
   .ga{
