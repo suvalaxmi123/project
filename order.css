@@ -5,7 +5,8 @@
 
 .order{
     height: 97vh;
-    background-color: #ccd5d2;
+    /* background-color: #ccd5d2; */
+    background:linear-gradient(to right,#fa90d1,#a5d4e6e3);
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-weight: weight;
@@ -72,7 +73,7 @@
    #button{
     width: 150px;
     padding: 10px;
-    background-color: #396983;
+    background-color: #35837c;
     border: 1px solid black;
   }
 

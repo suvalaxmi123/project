@@ -516,7 +516,7 @@ filter: drop-shadow(10px 10px 10px #272727);
   text-decoration: none;
   color: white;
  }
-  
+
  
 
 
@@ -625,41 +625,6 @@ p {
   transition-delay: 0.2s;
 }
 
-
-
-/* go to top */
-/* .top{
-height: 35px;
-width: 35px;
-background-color: #05572a;
-
-position: fixed;
-top: 90%;
-left: 85%;
-border-radius: 20px;
-filter: drop-shadow(10px 10px 10px #323332);
-
-}
-.top span{
-  margin: 9px;
-  color: white;
-  margin-left: 40px;
-  font-size: 15px;
-}
-.top a{
-  outline: none;
-  text-decoration: none;
-  color: white;
-
-}
-a img{
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-} */
-
-
-
 .line{
   font-size: 1.2rem;
   line-height: 32px;
@@ -698,10 +663,7 @@ bottom:50px;
   
   color:whitesmoke;
 }
-/* .button .order{
-  position: relative;
-  bottom:30vh;
-} */
+
 
 /* this is for search bar */
 .btn , .clo{
@@ -787,8 +749,6 @@ bottom:50px;
     flex-direction: column;
     isolation: isolate;
     position: relative;
-    /* width: 18rem;
-    height: 8rem; */
     height: 150px;
     width: 550px;
     background: #1e1e20;
