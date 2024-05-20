@@ -142,7 +142,10 @@ button:hover {
     100% { background-color: rgba(245, 191, 210, 0.8); }
 }
 
-
+button  a{
+    text-decoration: none;
+    color: white;
+}
 
 
 
